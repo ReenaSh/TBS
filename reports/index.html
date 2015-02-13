@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sign_Up_Suite">
+              <span class="suite-name border-failed">Sign Up Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sign_Up_Suite">
+                    <span>C:\TotalBS\TaskTemplate.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sign_Up_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sign_Up_Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sign_Up_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sign_Up_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sign_Up_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sign_Up_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 9 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Sign_Up_Suite" class="hide-methods failed suite-Sign_Up_Suite"> (hide)</a> <!-- hide-methods failed suite-Sign_Up_Suite -->
+                      <a href="#" panel-name="suite-Sign_Up_Suite" class="show-methods failed suite-Sign_Up_Suite"> (show)</a> <!-- show-methods failed suite-Sign_Up_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Sign_Up_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Adition_of_New_TaskTemplate_on_Listing_page">Adition_of_New_TaskTemplate_on_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Adition_of_New_Task_on_Tasking_Template_Item">Adition_of_New_Task_on_Tasking_Template_Item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Back_button_functionality_on_Item_TaskTemplate_Listing_page">Back_button_functionality_on_Item_TaskTemplate_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page">Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page">Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Check_validation_for_New_Task_fields_on_Tasking_Template_Item">Check_validation_for_New_Task_fields_on_Tasking_Template_Item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Edit_of_TaskTemplate_on_Listing_page">Edit_of_TaskTemplate_on_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Element_Verification_on_Item_TaskTemplate_Listing_page">Element_Verification_on_Item_TaskTemplate_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="MultipleTask_button_functionality_on_TaskTemplate_Listing_page">MultipleTask_button_functionality_on_TaskTemplate_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Sign_Up_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sign_Up_Suite" class="hide-methods passed suite-Sign_Up_Suite"> (hide)</a> <!-- hide-methods passed suite-Sign_Up_Suite -->
+                      <a href="#" panel-name="suite-Sign_Up_Suite" class="show-methods passed suite-Sign_Up_Suite"> (show)</a> <!-- show-methods passed suite-Sign_Up_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Sign_Up_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Check_status_on_Item_TaskTemplate_Listing_page_no_task_present">Check_status_on_Item_TaskTemplate_Listing_page_no_task_present</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Delete_button_functionality_on_TaskTemplate_Listing_page">Delete_button_functionality_on_TaskTemplate_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Element_Verification_on_TaskTemplate_Listing_page">Element_Verification_on_TaskTemplate_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Navigation_of_TaskTemplate_Listing_page">Navigation_of_TaskTemplate_Listing_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_Up_Suite" title="runThrghTestNG.TaskingTemplate" hash-for-method="Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record">Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sign_Up_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sign_Up_Suite" class="panel Sign_Up_Suite">
+          <div class="suite-Sign_Up_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runThrghTestNG.TaskingTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Adition_of_New_TaskTemplate_on_Listing_page">
+                  </a> <!-- Adition_of_New_TaskTemplate_on_Listing_page -->
+                  <span class="method-name">Adition_of_New_TaskTemplate_on_Listing_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Adition_of_New_TaskTemplate_on_Listing_page(TaskingTemplate.java:150)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Adition_of_New_Task_on_Tasking_Template_Item">
+                  </a> <!-- Adition_of_New_Task_on_Tasking_Template_Item -->
+                  <span class="method-name">Adition_of_New_Task_on_Tasking_Template_Item</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Adition_of_New_Task_on_Tasking_Template_Item(TaskingTemplate.java:376)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Back_button_functionality_on_Item_TaskTemplate_Listing_page">
+                  </a> <!-- Back_button_functionality_on_Item_TaskTemplate_Listing_page -->
+                  <span class="method-name">Back_button_functionality_on_Item_TaskTemplate_Listing_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Back_button_functionality_on_Item_TaskTemplate_Listing_page(TaskingTemplate.java:234)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page">
+                  </a> <!-- Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page -->
+                  <span class="method-name">Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page(TaskingTemplate.java:188)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page">
+                  </a> <!-- Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page -->
+                  <span class="method-name">Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page(TaskingTemplate.java:129)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_validation_for_New_Task_fields_on_Tasking_Template_Item">
+                  </a> <!-- Check_validation_for_New_Task_fields_on_Tasking_Template_Item -->
+                  <span class="method-name">Check_validation_for_New_Task_fields_on_Tasking_Template_Item</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Check_validation_for_New_Task_fields_on_Tasking_Template_Item(TaskingTemplate.java:353)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_of_TaskTemplate_on_Listing_page">
+                  </a> <!-- Edit_of_TaskTemplate_on_Listing_page -->
+                  <span class="method-name">Edit_of_TaskTemplate_on_Listing_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Edit_of_TaskTemplate_on_Listing_page(TaskingTemplate.java:175)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Element_Verification_on_Item_TaskTemplate_Listing_page">
+                  </a> <!-- Element_Verification_on_Item_TaskTemplate_Listing_page -->
+                  <span class="method-name">Element_Verification_on_Item_TaskTemplate_Listing_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.Element_Verification_on_Item_TaskTemplate_Listing_page(TaskingTemplate.java:251)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MultipleTask_button_functionality_on_TaskTemplate_Listing_page">
+                  </a> <!-- MultipleTask_button_functionality_on_TaskTemplate_Listing_page -->
+                  <span class="method-name">MultipleTask_button_functionality_on_TaskTemplate_Listing_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:23:22&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f6d26dcffae9e23e4c8dda2e2b965de3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\REENA~1.SHA\AppData\Local\Temp\scoped_dir940_23467}, rotatable=false, locationContextEnabled=true, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at runThrghTestNG.TaskingTemplate.MultipleTask_button_functionality_on_TaskTemplate_Listing_page(TaskingTemplate.java:210)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sign_Up_Suite-class-failed -->
+          <div class="suite-Sign_Up_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runThrghTestNG.TaskingTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_status_on_Item_TaskTemplate_Listing_page_no_task_present">
+                  </a> <!-- Check_status_on_Item_TaskTemplate_Listing_page_no_task_present -->
+                  <span class="method-name">Check_status_on_Item_TaskTemplate_Listing_page_no_task_present</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_button_functionality_on_TaskTemplate_Listing_page">
+                  </a> <!-- Delete_button_functionality_on_TaskTemplate_Listing_page -->
+                  <span class="method-name">Delete_button_functionality_on_TaskTemplate_Listing_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Element_Verification_on_TaskTemplate_Listing_page">
+                  </a> <!-- Element_Verification_on_TaskTemplate_Listing_page -->
+                  <span class="method-name">Element_Verification_on_TaskTemplate_Listing_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Navigation_of_TaskTemplate_Listing_page">
+                  </a> <!-- Navigation_of_TaskTemplate_Listing_page -->
+                  <span class="method-name">Navigation_of_TaskTemplate_Listing_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record">
+                  </a> <!-- Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record -->
+                  <span class="method-name">Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sign_Up_Suite-class-passed -->
+        </div> <!-- panel Sign_Up_Suite -->
+        <div panel-name="test-xml-Sign_Up_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\TotalBS\TaskTemplate.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Sign Up Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;runThrghTestNG.TestInvocation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;TaskingTemplateTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runThrghTestNG.TaskingTemplate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TaskingTemplateTests --&gt;
+&lt;/suite&gt; &lt;!-- Sign Up Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sign_Up_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sign Up Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TaskingTemplateTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sign_Up_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sign Up Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Tasking Template Item Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Adition_of_New_Task_on_Tasking_Template_Item</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Back_button_functionality_on_Item_TaskTemplate_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Check_status_on_Item_TaskTemplate_Listing_page_no_task_present</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Check_validation_for_New_Task_fields_on_Tasking_Template_Item</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Tasking Template Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Adition_of_New_TaskTemplate_on_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Delete_button_functionality_on_TaskTemplate_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Edit_of_TaskTemplate_on_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Element_Verification_on_Item_TaskTemplate_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Element_Verification_on_TaskTemplate_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MultipleTask_button_functionality_on_TaskTemplate_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Navigation_of_TaskTemplate_Listing_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sign_Up_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sign Up Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sign_Up_Suite');
+function tableData_Sign_Up_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Navigation_of_TaskTemplate_Listing_page')
+data.setCell(0, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(0, 3, 41245);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Delete_button_functionality_on_TaskTemplate_Listing_page')
+data.setCell(1, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(1, 3, 7081);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record')
+data.setCell(2, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(2, 3, 6199);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Element_Verification_on_Item_TaskTemplate_Listing_page')
+data.setCell(3, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(3, 3, 3877);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Element_Verification_on_TaskTemplate_Listing_page')
+data.setCell(4, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(4, 3, 3232);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page')
+data.setCell(5, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(5, 3, 3090);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Edit_of_TaskTemplate_on_Listing_page')
+data.setCell(6, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(6, 3, 3088);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Check_status_on_Item_TaskTemplate_Listing_page_no_task_present')
+data.setCell(7, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(7, 3, 3035);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page')
+data.setCell(8, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(8, 3, 26);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MultipleTask_button_functionality_on_TaskTemplate_Listing_page')
+data.setCell(9, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(9, 3, 18);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Back_button_functionality_on_Item_TaskTemplate_Listing_page')
+data.setCell(10, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(10, 3, 16);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Check_validation_for_New_Task_fields_on_Tasking_Template_Item')
+data.setCell(11, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(11, 3, 16);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Adition_of_New_TaskTemplate_on_Listing_page')
+data.setCell(12, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(12, 3, 10);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Adition_of_New_Task_on_Tasking_Template_Item')
+data.setCell(13, 2, 'runThrghTestNG.TaskingTemplate')
+data.setCell(13, 3, 9);
+window.suiteTableData['Sign_Up_Suite']= { tableData: data, tableDiv: 'times-div-Sign_Up_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Sign_Up_Suite">
+              </div> <!-- times-div-Sign_Up_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sign_Up_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sign Up Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Back_button_functionality_on_Item_TaskTemplate_Listing_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Back_button_functionality_on_Item_TaskTemplate_Listing_page failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Back_button_functionality_on_Item_TaskTemplate_Listing_page_12Feb15__0543PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Back_button_functionality_on_Item_TaskTemplate_Listing_page_12Feb15__0543PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Edit_of_TaskTemplate_on_Listing_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Edit_of_TaskTemplate_on_Listing_page failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Edit_of_TaskTemplate_on_Listing_page_12Feb15__0543PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Edit_of_TaskTemplate_on_Listing_page_12Feb15__0543PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page_12Feb15__0543PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page_12Feb15__0543PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Adition_of_New_TaskTemplate_on_Listing_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Adition_of_New_TaskTemplate_on_Listing_page failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Adition_of_New_TaskTemplate_on_Listing_page_12Feb15__0543PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Adition_of_New_TaskTemplate_on_Listing_page_12Feb15__0543PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page_12Feb15__0543PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page_12Feb15__0543PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">MultipleTask_button_functionality_on_TaskTemplate_Listing_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">MultipleTask_button_functionality_on_TaskTemplate_Listing_page failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\MultipleTask_button_functionality_on_TaskTemplate_Listing_page_12Feb15__0543PM.png"><img src="file:///C:\TotalBS\reports\screenshots\MultipleTask_button_functionality_on_TaskTemplate_Listing_page_12Feb15__0543PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Adition_of_New_Task_on_Tasking_Template_Item</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Adition_of_New_Task_on_Tasking_Template_Item failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Adition_of_New_Task_on_Tasking_Template_Item_12Feb15__0544PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Adition_of_New_Task_on_Tasking_Template_Item_12Feb15__0544PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Element_Verification_on_Item_TaskTemplate_Listing_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Element_Verification_on_Item_TaskTemplate_Listing_page failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Element_Verification_on_Item_TaskTemplate_Listing_page_12Feb15__0543PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Element_Verification_on_Item_TaskTemplate_Listing_page_12Feb15__0543PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Check_validation_for_New_Task_fields_on_Tasking_Template_Item</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Check_validation_for_New_Task_fields_on_Tasking_Template_Item failed; Click on image to enlarge<br/><a target="_blank" href="C:\TotalBS\reports\screenshots\Check_validation_for_New_Task_fields_on_Tasking_Template_Item_12Feb15__0544PM.png"><img src="file:///C:\TotalBS\reports\screenshots\Check_validation_for_New_Task_fields_on_Tasking_Template_Item_12Feb15__0544PM.png" alt=""height='100' width='100'/></a><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sign_Up_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sign_Up_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runThrghTestNG.TaskingTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initConfigurations</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initObjects</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(https://bbqubed.tbsmga.com/Connect/Default.aspx, ${environment}, chrome, TaskingTemplateTests)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Navigation_of_TaskTemplate_Listing_page</span>
+                <span class="method-start">13912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Element_Verification_on_TaskTemplate_Listing_page</span>
+                <span class="method-start">55159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validation_check_for_manadataory_fields_on_TaskTemplate_on_Listing_page_for_new_record</span>
+                <span class="method-start">58392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page</span>
+                <span class="method-start">64592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Adition_of_New_TaskTemplate_on_Listing_page</span>
+                <span class="method-start">64912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Edit_of_TaskTemplate_on_Listing_page</span>
+                <span class="method-start">65064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page</span>
+                <span class="method-start">68291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Delete_button_functionality_on_TaskTemplate_Listing_page</span>
+                <span class="method-start">71501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MultipleTask_button_functionality_on_TaskTemplate_Listing_page</span>
+                <span class="method-start">78583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Back_button_functionality_on_Item_TaskTemplate_Listing_page</span>
+                <span class="method-start">78758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Element_Verification_on_Item_TaskTemplate_Listing_page</span>
+                <span class="method-start">78894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Check_status_on_Item_TaskTemplate_Listing_page_no_task_present</span>
+                <span class="method-start">82890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_validation_for_New_Task_fields_on_Tasking_Template_Item</span>
+                <span class="method-start">85926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Adition_of_New_Task_on_Tasking_Template_Item</span>
+                <span class="method-start">86060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86186 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Sign Up Suite">
+    <listeners>
+        <listener class-name="runThrghTestNG.TestInvocation"/>
+       
+    </listeners>cmd
+     <test name="TaskingTemplateTests" preserve-order="true">
+    
+        <classes>
+            <class name="runThrghTestNG.TaskingTemplate"/>
+            
+        </classes>
+    
+     </test>
+</suite>
+
+

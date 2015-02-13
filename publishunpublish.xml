@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Publish Unpublish Suite">
+    <listeners>
+        <listener class-name="runThrghTestNG.TestInvocation"/>
+       
+    </listeners>cmd
+     <test name="PublishUnpublishTests" preserve-order="true" parallel="false">
+                
+        <classes>
+            <class name="runThrghTestNG.PublishUnpublish"/>   
+        </classes>
+        
+     </test>
+</suite>
+
+

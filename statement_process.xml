@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Statement Process Suite">
+    <listeners>
+        <listener class-name="runThrghTestNG.TestInvocation"/>
+       
+    </listeners>cmd
+     <test name="StatementProcessTests" preserve-order="true" parallel="false">
+                
+        <classes>
+            <class name="runThrghTestNG.Statement_process"/>   
+        </classes>
+        
+     </test>
+</suite>
+
+

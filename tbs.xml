@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="TBS Suite">
+    <listeners>
+        <listener class-name="runThrghTestNG.TestInvocation"/>
+       
+    </listeners>cmd
+     <test name="TbsTests" preserve-order="true" parallel="false">
+                
+        <classes>
+            <class name="runThrghTestNG.Login"/> 
+            <class name="runThrghTestNG.Signup"/>
+            <class name="runThrghTestNG.SmokeTest"/> 
+            <class name="runThrghTestNG.Broker"/>      
+            <class name="runThrghTestNG.Statement_process"/>   
+        </classes>
+        
+     </test>
+</suite>
+
+

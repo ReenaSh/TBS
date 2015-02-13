@@ -1,0 +1,4 @@
+#!/bin/bash
+BASE=`dirname $0`
+export LD_LIBRARY_PATH=$BASE/libs
+exec $BASE/chromedriver_binary $*

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sign Up Suite]">
+  <listeners>
+    <listener class-name="runThrghTestNG.TestInvocation"/>
+  </listeners>
+  <test name="TaskingTemplateTests(failed)">
+    <classes>
+      <class name="runThrghTestNG.TaskingTemplate">
+        <methods>
+          <include name="setUp"/>
+          <include name="Back_button_functionality_on_Item_TaskTemplate_Listing_page"/>
+          <include name="tearDown"/>
+          <include name="Cancel_button_functionality_on_Edit_of_TaskTemplate_on_Listing_page"/>
+          <include name="Adition_of_New_TaskTemplate_on_Listing_page"/>
+          <include name="Cancel_button_functionality_on_New_TaskTemplate_on_Listing_page"/>
+          <include name="Check_validation_for_New_Task_fields_on_Tasking_Template_Item"/>
+          <include name="initConfigurations"/>
+          <include name="MultipleTask_button_functionality_on_TaskTemplate_Listing_page"/>
+          <include name="Edit_of_TaskTemplate_on_Listing_page"/>
+          <include name="Adition_of_New_Task_on_Tasking_Template_Item"/>
+          <include name="Element_Verification_on_Item_TaskTemplate_Listing_page"/>
+          <include name="initObjects"/>
+        </methods>
+      </class> <!-- runThrghTestNG.TaskingTemplate -->
+    </classes>
+  </test> <!-- TaskingTemplateTests(failed) -->
+</suite> <!-- Failed suite [Sign Up Suite] -->
